@@ -9,6 +9,10 @@ class Counter extends Knee {
   inc() {
     this.value += 1;
   }
+
+  print() {
+    console.log(this.value);
+  }
 }
 
 module.exports = Counter;
